@@ -24,6 +24,7 @@ let insertY = [
     "Disneyland",
     "the White House"
 ];
+
 let insertZ = [
     "spontaneously combusted",
     "melted into a puddle on the sidewalk",
@@ -46,9 +47,15 @@ function result() {
     const name = customName.replace("Bob");
 
   }
-  if(document.getElementById("uk").checked) {
+  
+  if(document.getElementById("us").checked) {
     const weight = Math.round(300);
     const temperature =  Math.round(94);
+  }
+
+  if(document.getElementById("uk").checked) {
+    const weight = Math.round(21.428) + ' stone';
+    const temperature =  Math.round(34.4444) + ' centigrade';
 
   }
 
