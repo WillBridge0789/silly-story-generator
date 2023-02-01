@@ -44,7 +44,8 @@ const zItem = randomValueFromArray();
 function result() {
 
   if(customName.value !== '') {
-    const name = customName.value();
+    const name = customName.value;
+    newStory = newStory.replaceAll('Bob', name);
 
   }
   
