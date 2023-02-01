@@ -56,9 +56,8 @@ function result() {
   if(document.getElementById("uk").checked) {
     const weight = Math.round(21.428) + ' stone';
     const temperature =  Math.round(34.4444) + ' centigrade';
-
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
