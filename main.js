@@ -43,10 +43,9 @@ const zItem = randomValueFromArray();
 function result() {
 
   if(customName.value !== '') {
-    const name = customName.value;
+    const name = customName.replace("Bob");
 
   }
-
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300);
     const temperature =  Math.round(94);
