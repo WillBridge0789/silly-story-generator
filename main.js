@@ -11,34 +11,35 @@ function randomValueFromArray(array){
 
 //2. RAW TEXT STRINGS
 
-let storyTxt = "It was 94 fahrenheit outside, so" + xItem + " went for a walk. When they got to" + yItem + " , they stared in horror for a few moments, then" + zItem + ". Bob saw the whole thing, but was not surprised — " + xItem + " weighs 300 pounds, and it was a hot day."
+const storyTxt = "It was 94 fahrenheit outside, so " + xItem + " went for a walk. When they got to " + yItem + ", they stared in horror for a few moments, then " + zItem + ". Bob saw the whole thing, but was not surprised —" + xItem + " weighs 300 pounds, and it was a hot day."
 
-let insertX = [
+const insertX = [
     "Willy the Goblin",
     "Big Daddy",
     "Father Christmas",
 ];
 
-let insertY = [
+const insertY = [
     "the soup kitchen",
     "Disneyland",
     "the White House"
 ];
 
-let insertZ = [
+const insertZ = [
     "spontaneously combusted",
     "melted into a puddle on the sidewalk",
     "turned into a slug and crawled away"
 ]; 
+
 
 //3. EVENT LISTENER AND PARTIAL FUNCTION DEFINITION
 
 randomize.addEventListener('click', result);
 
 const newStory = storyTxt;
-const xItem = randomValueFromArray();
-const yItem = randomValueFromArray();
-const zItem = randomValueFromArray();
+const xItem = randomValueFromArray(insertX);
+const yItem = randomValueFromArray(insertY);
+const zItem = randomValueFromArray(insertZ);
 
 
 function result() {
