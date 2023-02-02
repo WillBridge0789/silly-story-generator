@@ -4,7 +4,8 @@ body {
 }
 
 label {
-    font-weight: bold;  
+    font-weight: bold;
+    justify-content: flex-start;  
 }
 
 div {
