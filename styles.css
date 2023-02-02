@@ -6,7 +6,7 @@ body {
 label {
     font-weight: bold;  
 }
-
+/* Edited background color for div here */
 div {
     padding-bottom: 20px;
     background-color: rgba(140, 103, 141, 0.5);
@@ -16,7 +16,7 @@ input[type="text"] {
     padding: 5px;
     width: 150px;
 }
-
+/* Also edited the color for paragraph */
 p {
     background: #96559e;
     color: #230c04;
