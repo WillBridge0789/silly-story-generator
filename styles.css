@@ -4,16 +4,10 @@ body {
     justify-content: flex-start;  
 }
 
-.select input {
+div label input {
+    padding-bottom: 20px;
     font-weight: bold;
     justify-items: flex-start;
-}
-
-div {
-    padding-bottom: 20px;
-}
-
-input {
     padding: 5px;
     width: 150px;
 }
