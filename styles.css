@@ -4,7 +4,7 @@ body {
     justify-content: flex-start;  
 }
 
-label {
+.select {
     font-weight: bold;
 }
 
