@@ -1,23 +1,23 @@
 body {
     font-family: helvetica, sans-serif;
     width: 350px;
-    align-items: center;
-  }
+    margin: auto;
+}
 
-  label {
+label {
     font-weight: bold;  
-  }
+}
 
-  div {
+div {
     padding-bottom: 20px;
-  }
+}
 
-  input[type="text"] {
+input {
     padding: 5px;
     width: 150px;
-  }
+}
 
-  p {
+p {
     background: skyblue;
     border-radius: 8px;
     color: #131224;
@@ -25,4 +25,4 @@ body {
     text-align: center;
     padding: 10px;
     visibility: hidden;
-  }
+}
