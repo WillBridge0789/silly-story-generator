@@ -1,6 +1,7 @@
 body {
     font-family: helvetica, sans-serif;
     width: 350px;
+    align-items: center;
   }
 
   label {
@@ -19,7 +20,6 @@ body {
   p {
     background: skyblue;
     border-radius: 8px;
-    border: 5px outset blue; 
     color: #131224;
     font-size: 1.5em;
     text-align: center;
