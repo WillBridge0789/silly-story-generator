@@ -4,8 +4,9 @@ body {
     justify-content: flex-start;  
 }
 
-.select {
+.select input {
     font-weight: bold;
+    justify-items: flex-start;
 }
 
 div {
