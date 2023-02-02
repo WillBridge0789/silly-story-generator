@@ -19,6 +19,7 @@ input[type="text"] {
 p {
     background: #FFC125;
     color: #5E2612;
+    box-shadow: 5px 5px 10px rgb(89, 61, 9);
     padding: 10px;
     visibility: hidden;
 }
