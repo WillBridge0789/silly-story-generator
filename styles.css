@@ -1,7 +1,7 @@
 body {
+    display: flex;
     font-family: helvetica, sans-serif;
     width: 350px;
-    align-items: center;
 }
 
 label {
