@@ -4,7 +4,7 @@ body {
     justify-content: flex-start;  
 }
 
-div label input {
+.select label input {
     padding-bottom: 20px;
     font-weight: bold;
     justify-items: flex-start;
